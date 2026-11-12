@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>С днём рождения, бурмалда *мама*! 💗</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+    :root { --pink:#ff8fb5; --rose:#f6b6c9; --ink:#493744; --cream:#fff8f5; }
+    * { box-sizing:border-box }
+    html { scroll-behavior:smooth }
+    body { margin:0; color:var(--ink); font-family:Manrope, sans-serif; background:var(--cream); overflow-x:hidden }
+    .hero { min-height:100svh; display:grid; place-items:center; text-align:center; padding:70px 22px; position:relative; overflow:hidden;
+      background:radial-gradient(circle at 15% 20%,#ffe1eb 0 8%,transparent 28%),radial-gradient(circle at 85% 75%,#f9d7e3 0 10%,transparent 30%),linear-gradient(135deg,#fff7f4,#ffeaf0) }
+    .hero:before,.hero:after { content:""; position:absolute; width:270px;height:270px;border:1px solid #f5b9cc;border-radius:50%;opacity:.55 }
+    .hero:before { top:-130px;left:-100px;box-shadow:0 0 0 25px #ffffff30,0 0 0 50px #ffffff20 }
+    .hero:after { bottom:-160px;right:-100px;box-shadow:0 0 0 25px #ffffff30,0 0 0 50px #ffffff20 }
+    .hero-content { max-width:760px; position:relative; z-index:1; animation:rise 1s ease both }
+    .eyebrow { letter-spacing:.22em;text-transform:uppercase;font-size:12px;font-weight:800;color:#c66b8e }
+    h1 { font-family:Comfortaa,cursive;font-size:clamp(42px,9vw,88px);line-height:1.12;margin:22px 0;color:#b94f7a }
+    .hero p { font-size:clamp(16px,2.5vw,20px);line-height:1.8;max-width:570px;margin:0 auto 30px;color:#765b6c }
+    .heart { font-size:48px;display:inline-block;animation:beat 1.4s infinite }
+    .btn { border:0;border-radius:999px;padding:15px 25px;background:#d96f99;color:white;font:700 14px Manrope;cursor:pointer;box-shadow:0 9px 25px #d96f9940;transition:.2s }
+    .btn:hover { transform:translateY(-3px);background:#c85e89 }
+    section { padding:85px 20px }
+    .wrap { width:min(950px,100%);margin:auto }
+    .section-title { text-align:center;font:700 clamp(27px,5vw,42px) Comfortaa;color:#b94f7a;margin:0 0 15px }
+    .sub { text-align:center;color:#977b8b;margin:0 auto 38px;line-height:1.7 }
+    .letter { max-width:720px;margin:auto;background:white;padding:clamp(25px,6vw,55px);border-radius:28px;box-shadow:0 18px 55px #9f587016;line-height:2;font-size:16px;position:relative }
+    .letter:before { content:"✿";position:absolute;top:-22px;right:28px;font-size:42px;color:#ed9bb7 }
+    .letter strong { color:#c45d88 }
+    .cards { display:grid;grid-template-columns:repeat(3,1fr);gap:17px }
+    .card { background:white;border:1px solid #f7dce6;border-radius:23px;padding:25px 20px;text-align:center;transition:.25s }
+    .card:hover { transform:translateY(-6px);box-shadow:0 15px 30px #b75e8018 }
+    .card .emoji { font-size:35px }
+    .card h3 { font:700 17px Comfortaa;color:#b94f7a;margin:15px 0 8px }
+    .card p { font-size:14px;line-height:1.7;color:#866e7d;margin:0 }
+    .surprise { background:linear-gradient(135deg,#ffe8ef,#fff3ee);text-align:center }
+    .surprise-box { max-width:650px;margin:auto }
+    #secret { display:none;background:white;border-radius:22px;padding:25px;margin:25px auto 0;line-height:1.8;box-shadow:0 10px 35px #b75e8018 }
+    footer { text-align:center;padding:35px 20px;color:#a18494;font-size:13px }
+    .floating { position:fixed;pointer-events:none;z-index:5;animation:floatUp 2.8s ease-out forwards;font-size:22px }
+    @keyframes rise { from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:translateY(0)} }
+    @keyframes beat { 0%,100%{transform:scale(1)}50%{transform:scale(1.18)} }
+    @keyframes floatUp { to{transform:translateY(-110vh) rotate(35deg);opacity:0} }
+.walter-section .section-title{text-align:center}.walter-copy{text-align:center}}
+
+    @media(max-width:650px){.cards{grid-template-columns:1fr}.card{padding:23px}.hero{min-height:90svh}}
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="hero-content">
+      <div class="eyebrow">сегодня особенный день ✨</div>
+      <div class="heart">💗</div>
+      <h1>С днём рождения,<br>мамамамама!</h1>
+    
+      <button class="btn" onclick="document.querySelector('.surprise').scrollIntoView({behavior:'smooth'})">Листай вниз — там сюрприз ↓</button>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <h2 class="section-title">я тибя типо очень люблюю ты крутая/h2>
+      <p class="sub">и это даже не обсуждается.</p>
+      <div class="cards">
+        <article class="card"><div class="emoji">🌷</div><h3>Много уолтера хеллсинг.пнг</h3><p>Чтобы каждый страпонила его</p></article>
+        <article class="card"><div class="emoji">🎀</div><h3>Наполеонаh3><p>либо человека либо торта ты не уточнила</p></article>
+        <article class="card"><div class="emoji">🧸</div><h3>Гомер бартов -- выпустил </h3><p>бр бр патапим</p></article>
+      </div>
+    </div>
+  </section>
+<section class="surprise">
+    <div class="surprise-box">
+      <h2 class="section-title">А теперь маленький сюрприз</h2>
+      <p class="sub">Нажми на кнопку. Это секретное послание специально для тебя.</p>
+      <button class="btn" onclick="showSecret()">Открыть сюрприз 💝</button>
+      <div id="secret">📜 Официальный документ подтверждает:<br><strong>сОси елду</strong><br>хахаха💗</div>
+    </div>
+  </section>
+
+  <footer>а докс на неё можно посмотрет в моём тгк)))()) @ya_dolbayob</footer>
+  <script>
+    function showSecret() {
+      document.getElementById('secret').style.display = 'block';
+      for (let i=0;i<24;i++) {
+        setTimeout(() => {
+          const el=document.createElement('span');
+          el.className='floating';
+          el.textContent=['💗','💖','💕','🌸','✨'][Math.floor(Math.random()*5)];
+          el.style.left=Math.random()*100+'vw';
+          el.style.bottom='-30px';
+          document.body.appendChild(el);
+          setTimeout(()=>el.remove(),2900);
+        },i*65);
+      }
+    }
+  </script>
+</body>
+</html>
